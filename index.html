@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Remix icon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="hero-image">
+            <div class="image">
+                <img src="images/avatar.png" alt="">
+                <img src="images/spring.png" alt="" id="element">
+            </div>
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/c11.png" alt="" width="90px" height="28px" style="object-fit: contain;">
+                      
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/c6.png" alt="" width="90px" height="28px" style="object-fit: contain;">
+                    </div>
+
+                    <div class="swiper-slide">
+                        
+                        <img src="images/c8.png" alt="" width="90px" height="28px" style="object-fit: contain;">
+                    </div>
+
+                    <div class="swiper-slide">
+                        
+                        <img src="images/c9.png" alt="" width="90px" height="28px" style="object-fit: contain;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <h3><i class="ri-check-double-line"></i> Collaboration With Chat</h3>
+            <h1>What social platform Did/do you feel the most Creative on?</h1>
+            <ul>
+                <li>Tumblr <i class="ri-arrow-right-s-line"></i></li>
+                <li>MySpace <i class="ri-arrow-right-s-line"></i></li>
+                <li>Instagram <i class="ri-arrow-right-s-line"></i></li>
+                <li>Pinterest <i class="ri-arrow-right-s-line"></i></li>
+            </ul>
+
+            <button>Vote Now</button>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".swiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop:true,
+            autoplay: {
+                delay: 1500,
+            },
+
+        });
+    </script>
+</body>
+</html>
